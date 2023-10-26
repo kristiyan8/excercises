@@ -1,0 +1,2 @@
+# excercises
+ repos for training
