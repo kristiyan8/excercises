@@ -11,8 +11,7 @@ print("hello")
             "args": [
                 "runserver"
             ],
-            "django": true,
-            "justMyCode": true
+         
         }
     ]
 }
@@ -20,3 +19,7 @@ print ("hello")
 x=5
 y=6
 print(x+y)
+
+a=4
+A="john"
+myvar = "John"
