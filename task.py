@@ -23,3 +23,7 @@ print(x+y)
 a=4
 A="john"
 myvar = "John"
+
+x = 7
+y = 2.8
+print(type(x))
