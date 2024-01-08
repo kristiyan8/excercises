@@ -1,10 +1,12 @@
 
 <html>
 <body>
-  <h1>Tova e test</h1>
-  <p id="test">test</p>
-  <button type = "button"
-  onclick="document.getElementByid('test').innerHTML = Date()">
-    Click me to display Date and Time.</button>  
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
 </body>
-</html>
+</html> 
