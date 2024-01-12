@@ -1,4 +1,9 @@
-console.log("nerds fuck you");
-console.log("nerds fuck you");
-console.log("nerds fuck you");
-console.log("nerds fuck you");
+function printHelllo() {
+    console.log("nerds fuck you");
+
+}
+printHelllo();
+
+
+
+
