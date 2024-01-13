@@ -1,9 +1,11 @@
 function printHelllo(input) {
-    console.log(input);
-    // console.log("nerds fuck you");
+    let name = input[0]
+    console.log(name);
+    
+    
 
 }
-printHelllo(['pencho', 'ivancho']);
+printHelllo(['pencho']);
 
 
 
