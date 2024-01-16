@@ -5,7 +5,8 @@ function printHelllo(input) {
     
 
 }
-printHelllo(['pencho , Ivancho']);
+printHelllo(['pencho ']);
+printHelllo(['alex']);
 
 
 
