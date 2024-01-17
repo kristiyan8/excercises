@@ -4,8 +4,8 @@ function projectCreation(input) {
 
     let projectHours = projectCount * 3;
 
-    
+    console.log('Toz shte se nujdae ${architectname} shte se nujdae ot ${projectHours} da zavurshi prokekta za ${projectCreation}.');
 
 
 }
-projectCreation(["George" , "4"]);
+projectCreation(["George" , "4"])
