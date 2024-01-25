@@ -15,7 +15,10 @@ function repaiting(input) {
 
     let thinnerPrice = thinQty * 5;
 
-    
+    let totalMaterialsPrice = nylonPrice + paitPrice + thinnerPrice + 0.40;
+    let payPerHour = 0.3 * totalMaterialsPrice;
+    let totalHours = workingHours * payPerHour; 
+
 
 
 
