@@ -19,6 +19,8 @@ function repaiting(input) {
     let payPerHour = 0.3 * totalMaterialsPrice;
     let totalHours = workingHours * payPerHour; 
 
+    console.log(totalHours + totalMaterialsPrice);
+
 
 
 
