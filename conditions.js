@@ -1,5 +1,5 @@
 function conditions() {
-    let number = 15;
+    let number = 6;
 
     if(number < 10){
         console.log('Number is smaller than 10');
@@ -7,9 +7,10 @@ function conditions() {
 
         
     }
-    else{
-        console.log('Number is bigger than or equal of  10');
-
+    if(number % 2 === 0){
+        console.log("Number is even");
+    }else{
+        console.log("Number is greater");
     }
     
 
