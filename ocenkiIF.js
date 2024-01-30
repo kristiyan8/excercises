@@ -1,25 +1,21 @@
 function ocenki(input) {
     let numbner = Number(input[0]);
 
-    if( number >= 5.50){
+    if (number >= 5.50) {
         console.log("excelent");
-    }
-    if(number >= 4.50){
-        console.log("very good");
-    }
-    if(number >= 3.50){
-        console.log("Good");
+    } else if (number >= 4.50) {
+         console.log("very good");
+    } else if (number >= 3.50) {
+         console.log("Good");
 
 
-    }
-    if(number >= 3){
+    } else if (number >= 3) {
         console.log("poor");
 
-    }
-    if(numbner < 3){
+    } else if (numbner < 3) {
         console.log("really bad");
     }
 
 
 }
-ocenki(["2.30"]);
+ocenki(["5.50"]);
