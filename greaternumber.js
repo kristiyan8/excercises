@@ -1,13 +1,13 @@
 function opit(input) {
-    let firstNumber = Number(input[0]);
-    let secondNumber = Number(input[1]);
+    let number  = Number(input[0]);
+    
 
-    if(firstNumber > secondNumber){
-        console.log(firstNumber);
+    if(number % 2 === 0){
+        console.log('even');
     } else{
-        console.log(secondNumber);
+        console.log('odd');
     }
 
 
 }
-opit(["5" , "8"]);
+opit([ "8"]);
