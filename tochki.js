@@ -12,7 +12,14 @@ function broiTochki(input) {
 
     if (initialPoints % 2 === 0) {
         bonus += 1;
-    }
+    } else if (initialPoints % 10 === 5) {
+        bonus += 2;
+
+    } 
+
+    console.log(bonus);
+    console.log(initialPoints + bonus);
+
 
 
 }
