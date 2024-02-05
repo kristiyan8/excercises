@@ -18,11 +18,11 @@ function igrachki(input) {
 
     if (moneyEarned >= tripPrice) {
         let moneyLeft = moneyEarned - tripPrice;
-        console.log('YEs , remaining price is $} left.');
+        console.log(` ${moneyLeft.toFixed(2)}`);
 
     } else {
         let moneyNeeded = tripPrice - moneyEarned;
-        console.log('Not enough money, money needed.');
+        console.log(` ${moneyNeeded}`);
     }
 
 
