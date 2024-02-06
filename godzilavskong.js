@@ -12,7 +12,19 @@ function godzilavskong(input) {
     let totalPrice = totalCostumePrice + decor;
 
 
+    if (budget >= totalPrice) {
+        let moneyLeft = budget - totalPrice;
+        console.log("action");
+        console.log(` wingard will have ${moneyLeft}`);
+
+
+    } else {
+
+        let moneyNeed = totalPrice - budget;
+        console.log("not enough dinero");
+        console.log(`winder needs ${moneyNeed} `);
+    }
+
+
 }
-godzilavskong(["20000",
-"120",
-"55.5"]);
+godzilavskong(["20000", "120", "55.5"]);
