@@ -4,7 +4,11 @@ function godzilavskong(input) {
     let statistiBroi = Number(input[1]);
     let oblekloPrice = Number(input[2]);
 
-    
+    totalCostumePrice = statistiBroi * oblekloPrice;
+    if (statistiBroi > 150) {
+        totalCostumePrice *= 0.90;
+
+    }
 
 
 }
