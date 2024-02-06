@@ -15,14 +15,14 @@ function godzilavskong(input) {
     if (budget >= totalPrice) {
         let moneyLeft = budget - totalPrice;
         console.log("action");
-        console.log(` wingard will have ${moneyLeft}`);
+        console.log(` wingard will have ${moneyLeft.toFixed(2)} weq`);
 
 
     } else {
 
         let moneyNeed = totalPrice - budget;
         console.log("not enough dinero");
-        console.log(`winder needs ${moneyNeed} `);
+        console.log(`winder needs ${moneyNeed.toFixed(2)} `);
     }
 
 
