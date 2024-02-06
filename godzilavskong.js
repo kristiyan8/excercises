@@ -9,6 +9,7 @@ function godzilavskong(input) {
         totalCostumePrice *= 0.90;
 
     }
+    let totalPrice = totalCostumePrice + decor;
 
 
 }
