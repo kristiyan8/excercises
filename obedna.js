@@ -12,10 +12,10 @@ function obednaSerial(input) {
         
         let timeleft = freeTime - episodeTime;
 
-        console.log(`you have enough time to watch ${serialName} and you will have ${timeleft} to relax`);
+        console.log(`you have enough time to watch ${serialName} and you will have ${Math.ceil(timeleft)} to relax`);
     } else {
         let neededTime = episodeTime - freeTime;
-        console.log(`"You don't have enough time to watch ${serialName}, you need ${neededTime} more minutes."`);
+        console.log(`"You don't have enough time to watch ${serialName}, you need ${Math.ceil(neededTime)} more minutes."`);
     }
 
 
