@@ -6,7 +6,7 @@ function vreme(input) {
     
     let newHour = Math.floor(mins / 60);
     let newMin = mins % 60;
-    if (newHour == 24) {
+    if (newHour === 24) {
         newHour = 0;
     }
 
