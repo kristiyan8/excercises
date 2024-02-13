@@ -6,6 +6,7 @@ function demo() {
        case 'ivo': console.log('sup');break;
        case 'mitko': console.log('supp');break;
        case 'Kris': console.log('W');break;
+       default: console.log('other name');
     
 
     }
