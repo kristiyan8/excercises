@@ -1,15 +1,20 @@
 function demo(input) {
 
-    let number = input[0];
+    let element = input[0];
 
-    switch (number) {
-        case 1: console.log('Monday');break;
-        case 2: console.log('Tuesday');break;
-        case 3: console.log('Wednesday');break;
-        case 4: console.log('Thursday');break;
-        case 5: console.log('Friday');break;
+    switch (element) {
+        case 'banana':
+        case 'kiwi':
+        case 'lemon':
+        case 'cherry':
+        case 'grapes':console.log('fruit');break;
+        case 'tomato': 
+        case 'carrot':
+        case 'cucumber':
+        case 'pepper':console.log('vegetable');break;
+        default: console.log('unknow'); break; 
     }
 
 
 }
-demo([1]);
+demo(['lemon'])
